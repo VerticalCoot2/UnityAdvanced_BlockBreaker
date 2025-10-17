@@ -16,8 +16,6 @@ public class ballLogic : MonoBehaviour
     void Start()
     {
         rb.AddForce(0, 0, - speed, ForceMode.Impulse);
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -38,4 +36,6 @@ public class ballLogic : MonoBehaviour
                 break;
         }
     }
+
+
 }
